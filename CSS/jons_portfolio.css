@@ -1,8 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0%;
 }
 
-/* NAVBAR */
+/*--NAVBAR--*/
 .navbar{
     position: fixed;
     top: 0;
@@ -35,7 +39,7 @@ body {
     background-color: rgb(207, 188, 158);
     color: rgb(110, 100, 67);
 }
-/* END OF NAVBAR */
+/*--/NAVBAR--*/
 
 /*--HOME--*/
 #group_video {
@@ -80,8 +84,8 @@ p{
     padding: 20px;
     margin-top: 31%;
 }
-/* END OF TEXT + OVERLAY */
-/*--HOME--*/
+/* /TEXT + OVERLAY */
+/*--/HOME--*/
 
 
 /*--AFFECTS ALL COLUMNS--*/
@@ -130,7 +134,7 @@ h2:hover {
     display: table;
     clear: both;
 }
-/*--END OF AFFECTS ALL COLUMNS--*/
+/*--/AFFECTS ALL COLUMNS--*/
 
 
 /*--ABOUT--*/
@@ -147,7 +151,7 @@ h2:hover {
 .column_1 img {
     margin-top: auto;
 }
-/* END OF LEFT COLUMN_1 */
+/* /LEFT COLUMN_1 */
 
 /* RIGHT COLUMN_2 */
 .column_2 {
@@ -166,8 +170,8 @@ h2:hover {
     padding-left: 20px;
     padding-right: 10px;
 }
-/* END OF RIGHT COLUMN_2 */
-/*--END OF ABOUT--*/
+/* /RIGHT COLUMN_2 */
+/*--/ABOUT--*/
 
 
 /*--GITHUB--*/
@@ -189,7 +193,7 @@ h2:hover {
     padding-left: 20px;
     padding-right: 10px;
 }
-/* END OF LEFT COLUMN */
+/* /LEFT COLUMN */
 
 /* RIGHT COLUMN_4 */
 .column_4 {
@@ -201,7 +205,7 @@ h2:hover {
     background-color: rgb(151, 141, 109);
 }
 /* END OF RIGHT COLUMN_4 */
-/*--END OF GITHUB--*/
+/*--/GITHUB--*/
 
 
 /*--CONTACT--*/
@@ -214,7 +218,7 @@ h2:hover {
     padding-top: 3%;
     background-color: rgb(151, 141, 109);
 }
-/* END OF LEFT COLUMN_5 */
+/* /LEFT COLUMN_5 */
 
 /* RIGHT COLUMN_6 */
 .column_6 {
@@ -258,8 +262,8 @@ input[type=submit]:hover {
     transition: transform 1.5 ease-in-out;
 }
 
-/* END OF RIGHT COLUMN_6 */
-/*--END OF CONTACT*/
+/* /RIGHT COLUMN_6 */
+/*--/CONTACT--*/
 
 
 /*--FOOTER--*/
@@ -275,4 +279,4 @@ footer {
     top: -15%;
     font-size: 25px;
 }
-/*--END OF FOOTER--*/
+/*--/FOOTER--*/
