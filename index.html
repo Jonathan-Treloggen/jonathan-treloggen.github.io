@@ -5,24 +5,25 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="./CSS/jons_portfolio.css">
         <title>Jon's Portfolio</title>
+            <link rel="stylesheet" type="text/css" href="./CSS/Jons_Portfolio.css">
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <!-- END OF HEAD -->
 
 
     <!-- BODY -->
     <body>
-
-
+        
         <!-- NAVBAR -->
         <div class="navbar">
             <a class="active" href="#Home">Home</a>
+            <a href="#Slideshow">Slideshow</a>
             <a href="#About">About</a>
             <a href="#Github">Github</a>
-            <a href="#Contact">Contact</a>
+            <a onclick="openForm()" ondblclick="closeForm()">Contact</a>
         </div>
-        <!-- END OF NAVBAR -->
+        <!-- /NAVBAR -->
 
 
         <!-- HOME -->
@@ -33,12 +34,12 @@
                 Your browser does not support HTML5 video.
             </video>
         </div>
-        <!-- END OF VIDEO-->
+        <!-- /VIDEO-->
 
 
         <!-- OVERLAY TEXT -->
         <div class="overlay_text">
-            <h1>JONATHAN TRELOGGEN'S PORTFOLIO</h1>
+            <h1 class="sticky">JONATHAN TRELOGGEN'S PORTFOLIO</h1>
                 <p>   
                     <strong>
                             <q>Alone we can do so little; together we can do so much.</q>
@@ -46,57 +47,122 @@
                             – Helen Keller
                             <br>
                             <br>
-                            My name is Jonathan Treloggen. Welcome to my portfolio website. On it,
+                            My name is Jonathan Treloggen. Welcome to my portfolio website.
                             <br>
-                            <br>
-                            I will tell you about my background and experience.
+                            On it,I will tell you a little about myself, and my experience.
                             <br>
                             <br>
                             Thank you for stopping by and enjoy!
                     </strong>
                 </p>
         </div>
-        <!-- END OF OVERLAY TEXT -->
-        <!-- END OF HOME -->
+        <!-- /OVERLAY TEXT -->
+        <!-- /HOME -->
+
+        
+            <!-- SLIDESHOW -->
+            <div id="Slideshow">
+                <!-- SLIDE SHOW CONTAINER -->
+                <div id="slideshow-container">
+
+                    <!-- PHOTO CONTAINER -->
+                    <div class="mySlides fade">
+                        <img class="Slide-Show-Images" src="images/Jon.jpg" style="width: 100%;" alt="Picture of Jonathon Treloggen">
+                            <div class="text">
+                                I'm ready and available to join your project!
+                            </div>
+                    </div>
+            
+                    <div class="mySlides fade">
+                        <img class="Slide-Show-Images" src="images/HTML_CSS_and_JavaScript.jpeg" style="width: 100%;" alt="HTML, JS and CSS picture">
+                            <div class="text">
+                                I'm a full-stack junior-level software developer,
+                                <br>trained in:
+                                <br>HTML, CSS, JavaScript,
+                            </div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <img class="Slide-Show-Images" src="images/C_Sharp_and_Dot_NET.png" style="width: 100%;" alt="C# .NET picture">
+                            <div class="text">
+                                C#, .NET Framwork, ASP.NET, MVC,
+                            </div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <img class="Slide-Show-Images" src="images/SQL_and_Database.jpg" style="width: 100%;" alt="HTML, JS and CSS picture">
+                            <div class="text">
+                                back end development, database and SQL.
+                            </div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <img class="Slide-Show-Images" src="images/contact.jpg" style="width: 100%;" alt="HTML, JS and CSS picture">
+                            <div class="text">
+                                <a onclick="openForm()" style="color: white; cursor: pointer;"><u>Contact me now!</u></a>
+                            </div>
+                    </div>
+                    <!-- /PHOTO CONTAINER -->
+                    
+                    <!-- NEXT AND PREVIOUS BUTTONS -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    <!-- /NEXT AND PREVIOUS BUTTONS -->
+            
+                </div>
+                <!-- /SLIDE SHOW CONTAINER -->
+                
+                <!-- PIC DOTS -->
+                <div style="text-align: center;">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+                <!-- /PIC DOTS -->
+            </div>
+            <!-- /SLIDESHOW -->
 
 
         <!-- ABOUT -->
         <div id="About" class="row">
-
-            <!-- LEFT COLUMN_1 -->
+            
+            <!-- LEFT COLUMN 1 -->
             <div class="column_1">
-                <img src="./images/laptop.jpeg" alt="A laptop with some code on it.">
+                <img src="images/laptop.jpg">
             </div>
-            <!-- END OF LEFT COLUMN_1 -->
+            <!-- /LEFT COLUMN_1 -->
 
             <!-- RIGHT COLUMN_2 -->
-            <div class="column_2">
+            <div class="column_2" id="scrollbar">
+                
                 <h2>ABOUT</h2>
                     <p>
-                        I've always wanted to get into coding, and now that I'm, I love it! I recently
-                        got married, and when I'm not working or studying, I love to spend time with my wife
-                        and play video games.
+                        I've always wanted to dive into coding, to finding out how video games, websites and even 
+                        apps work. My recent schooling has made my intrest in coding has grown into a passion. Being 
+                        able to fix bugs or even push my vision of a project through in code, is a feeling I would 
+                        love to chase into a career. Not even a year ago I got married. Now It's finally time to 
+                        start my future I've always wanted. I'm looking foward to lots of coding projects, as 
+                        well as many video games to play, with the down time I'll have with my wife.
                         <br>
                         <br>
-                        I am currently a student at <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a> 
-                        where I'm taking the C# and .NET Framework Boot Camp. I've currently learned HTML and CSS, 
-                        and I still have to learn, JavaScript, C#, .NET Framework, Database, SQL and a deep dive into Visual Studio.
+                        Currently I'm a student at <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a> 
+                        where I'm taking the C# and .NET Framework Boot Camp. I've currently learned HTML, CSS, and JavaScript
+                        and I still have to learn, C#, .NET Framework, Database, SQL and a deeper dive into Visual Studio.
                         <br>
                         <br>
                         After this Boot Camp I will be a full stack, junior developer, who is exited to get out there! If you would like
                         to <a href="#Contact">Contact</a> me, you can do so below.
                         <br>
-                        
-                        <br> 
-                        
                         <br>
                         
                     </p>
             </div>
-            <!-- END OF RIGHT COLUMN_2 -->
+            <!-- /RIGHT COLUMN_2 -->
         
         </div>
-        <!-- END OF ABOUT -->
+        <!-- /ABOUT -->
 
 
         <!-- GITHUB -->
@@ -104,8 +170,9 @@
 
             <!-- LEFT COLUMN_3 -->
             <div class="column_3">
-                <h2>GITHUB</h2>
                 <br>
+                <h2>GITHUB</h2>
+                
                 <p>
                     You can view my coding project on my GitHub Profile here:
                     <br>
@@ -113,7 +180,7 @@
                     <a href="https://github.com/Jonathan-Treloggen" target="_blank">Jonathan Treloggen's GitHub</a>
                 </p>
             </div>
-            <!-- END OF LEFT COLUMN_3 -->
+            <!-- /LEFT COLUMN_3 -->
 
             <!-- RIGHT COLUMN_4 -->
             <div class="column_4">
@@ -121,38 +188,34 @@
                     <img src="./images/github-logo.png" alt="GitHub logo">
                 </a>
             </div>
-            <!-- END OF COLUMN_4 -->
+            <!-- /RIGHT COLUMN_4 -->
 
         </div>
-        <!-- END OF GITHUB -->
+        <!-- /GITHUB -->
 
 
         <!-- CONTACT -->
-        <div id="Contact" class="row">
-            
-            <!-- LEFT COLUMN_5 -->
-            <div class="column_5">
-                <img src="./images/contact.jpg" alt="Man with a phone">
-            </div>
-            <!-- END OF LEFT COLUMN_5 -->
+        <div id="Contact">
+            <button onclick="openForm()" class="Pop_Up_Button"> CONTACT </button>
+                <div class="form-popup" id="myForm">
+                    <form action="" method="POST" class="form-container">
+                    <h1>Contact</h1>
+                        <label for="name"><b>Name</b></label>
+                            <input type="text" placeholder="Type your name here" name="name" required>
+                        <label for="email"><b>Email</b></label>
+                            <input type="text" placeholder="Type your email address here" name="email" required>
+                        <label for="phone"><b>Phone</b></label>
+                            <input type="text" placeholder="Enter your phone number here" name="phone">
+                        <label for="message"><b>Message</b></label>
+                            <input type="text" placeholder="Type your message here" name="message">
 
-            <!-- RIGHT COLUMN_6 -->
-            <div class="column_6">
-                <h2>CONTACT</h2>
-                    <form action="" method="get">
-                        <lablel>Name:</lablel>
-                            <input type="text" placeholder="Please enter your name here">
-                        <label>Email:</label>
-                            <input type="text" placeholder="Please enter your email here" id="Email" name="Email">
-                        <label>Message:</label>
-                            <input type="text" placeholder="Please type your message here" id="Message" name="Message">
-                            <input type="submit" value="Submit">
+            <button type="submit" class="btn">SUBMIT</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
                     </form>
-            </div>
-            <!-- END OF RIGHT COLUMN_6 -->
-
+                </div>
         </div>
-        <!-- END OF CONTACT -->
+        
+        <!-- /CONTACT -->
 
 
         <!-- FOOTER -->
@@ -161,6 +224,9 @@
                 &copy; Prosper Consultiong Inc., <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>
             </p>
         </footer>
-        <!-- END OF FOOTER -->
+        <!-- /FOOTER -->
+
+        
+        <script src="JS/Jons_Portfolio.js"></script>
     </body>
 </html>
