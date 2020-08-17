@@ -66,11 +66,10 @@ body {
 #group_video {
     position: fixed;
     filter: grayscale(100%);
-    height: auto;
-    width: 100%;
-    min-width: 100%;
+    min-height: 100%;
     right: 0;
     bottom: 0;;
+    top: 0;
     z-index: -1;
 }
 
@@ -349,8 +348,8 @@ h2 {
     z-index: 8;
     display: none;
     position: fixed;
-    bottom: 6px;
-    right: 6px;
+    bottom: 1vw;
+    right: 1vw;
 }
 
 .form-container {
@@ -420,6 +419,7 @@ footer {
     width: 100%;
     background-color: white;
     padding: 2vw;
+    bottom: 0;
 }
 
 .footer_text {
