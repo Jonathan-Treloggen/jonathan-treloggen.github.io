@@ -1,5 +1,4 @@
 <h1>Welcome to my portfolio</h1>
-<hr>
 In my portfolio I worked on my HTML and CSS skills. A small bit
 <br>
 of JavaScript was all that was really needed to make it look good.
