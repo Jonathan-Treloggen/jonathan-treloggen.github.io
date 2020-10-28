@@ -1,2 +1,4 @@
 # jonathan-treloggen.github.io
-My first attempt at my portfolio. I was given a reference and was told to keep the lay out the same but to customize it a little, so I customized it a lot instead.
+<br>
+<h1>Welcome to my portfolio</h1>
+Thank you so much for stopping by, please check out the link above to view my portfolio.
