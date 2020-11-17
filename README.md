@@ -3,10 +3,8 @@
 This website shows what I can do at this point. The more I 
 <br>
 learn, the better it will look over time. Having a visual  
-<br>
 representation of some of my skills I've found to be positive.
 <br>
-
 In my portfolio I worked on my HTML and CSS skills. A small bit
 <br>
 of JavaScript was all that was really needed to make it look 
