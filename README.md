@@ -1,9 +1,9 @@
 <h1>Welcome to my portfolio</h1>
 
 <p>
-  This website shows what I can do at this point.
+  &nbsp;&nbsp;This website shows what I can do at this
   <br>
-  The more I learn, the better it will look 
+  point.The more I learn, the better it will look 
   <br>
   over time. Having a visual  representation 
   <br>
