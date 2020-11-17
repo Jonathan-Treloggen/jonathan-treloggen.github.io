@@ -13,9 +13,9 @@
   <br>
   skills. A small bit of JavaScript was all that was 
   <br>
-  really needed to make it look the way it 
+  really needed to make it look the way it does. 
   <br>
-  does. If you'd like to see how it looks Click on 
+  If you'd like to see how it looks Click on 
   <br>
   <a href="https://jonathan-treloggen.github.io/index.html" target="_blank">Jon's portfolio.</a> 
 </p>
