@@ -20,4 +20,4 @@
   <a href="https://jonathan-treloggen.github.io" target="_blank">Jon's portfolio.</a> 
 </p>
 
-<h3>Thank you for stopping bye.</h3>
+<h3> you for stopping bye.</h3>
