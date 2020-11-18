@@ -1,9 +1,10 @@
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 10%;
 }
 
 body {
-    padding-top: 10%;
+    scroll-padding-top: 10%;
     margin: 0%;
     letter-spacing: .2vw;
     font-size: 1.2vw;
@@ -170,6 +171,7 @@ h2 {
 }
 
 .Slide-Show-Images {
+    object-fit:  cover;
     width: auto;
     height: 39.5vw;
     vertical-align: middle;
