@@ -17,7 +17,7 @@
   <br>
   If you'd like to see how it looks Click on 
   <br>
-  <a href="https://jonathan-treloggen.github.io/" target="_blank">Jon's portfolio.</a> 
+  <a href="https://jonathan-treloggen.github.io" target="_blank">Jon's portfolio.</a> 
 </p>
 
 <h3>Thank you for stopping bye.</h3>
