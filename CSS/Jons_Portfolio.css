@@ -326,6 +326,37 @@ h2 {
 /*--/GITHUB--*/
 
 
+/*--LINKEDIN--*/
+/* RIGHT COLUMN_5 */
+.column_5 {
+    float: left;
+    width: 50%;
+    padding: 2%;
+    height: 26vw;
+    background-color: rgb(129, 129, 129);
+}
+/* /RIGHT COLUMN_5 */
+
+/* LEFT COLUMN_6 */
+.column_6 {
+    float: left;
+    width: 50%;
+    padding: 2%;
+    height: 26vw;
+    background-color: rgb(247, 247, 247);
+}
+
+.column_6 p {
+    font-family: Perpetua, Rockwell Extra Bold;
+    text-align: center;
+    letter-spacing: .1vw;
+    font-size: 1.7vw;
+    padding-top: 6%;
+}
+/* LEFT COLUMN_6 */
+/*--/LINKEDIN--*/
+
+
 /*--CONTACT--*/
 /* ANIMATION */
 @keyframes movePopup {
