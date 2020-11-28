@@ -1,7 +1,7 @@
 <h1>Welcome to my portfolio</h1>
 
 <p>
-  &nbsp;&nbsp;&nbsp;&nbsp;This website shows what I can currently do with HTML, CSS and a little bit of JavaScript thrown in there. This visual representation of 
+  &nbsp;&nbsp;&nbsp;&nbsp;This website shows what I can currently do with HTML, CSS and a little bit of JavaScript. This visual representation of 
   <br>
   my portfolio tell you a little about my self, my resume is linked at the top and even a contact botton that will acctualy send me and 
   <br>
