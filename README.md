@@ -1,23 +1,13 @@
 <h1>Welcome to my portfolio</h1>
 
 <p>
-  &nbsp;&nbsp;&nbsp;&nbsp;This website shows what I can do at this
+  &nbsp;&nbsp;&nbsp;&nbsp;This website shows what I can currently do with HTML, CSS and a little bit of JavaScript. This visual representation of my portfolio 
   <br>
-  point.The more I learn, the better it will look 
+  tell you a little about myself, my resume is linked at the top and even a contact button that will actually send me and email with 
   <br>
-  over time. Having a visual representation of 
+  your information and message if ones provided. My portfolio also has links to my LinkedIn and back to GitHub where I have other
   <br>
-  some of my skills I've found to be positive.
-  <br>
-  In my portfolio I worked on my HTML and CSS 
-  <br>
-  skills. A small bit of JavaScript was all that was 
-  <br>
-  really needed to make it look the way it does. 
-  <br>
-  If you'd like to see how it looks Click on 
-  <br>
-  <a href="https://jonathan-treloggen.github.io" target="_blank">Jon's portfolio.</a> 
+  representations of my skill in other areas. View my website here at <a href="https://jonathan-treloggen.github.io" target="_blank">Jon's portfolio.</a>
 </p>
 
-<h3>Thank you for stopping bye.</h3>
+<h3>Thank you very much for stopping bye.</h3>
