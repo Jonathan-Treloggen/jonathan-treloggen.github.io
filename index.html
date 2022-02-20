@@ -1,259 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <!-- HEAD -->
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="/CSS/index.css" />
         <title>Jon's Portfolio</title>
-            <link rel="stylesheet" type="text/css" href="CSS/Jons_Portfolio.css">
     </head>
-    <!-- END OF HEAD -->
-
-
-    <!-- BODY -->
     <body>
-        
         <!-- NAVBAR -->
         <div class="navbar">
-            <a class="active" href="#Home">Home</a>
-            <a href="#Slideshow">Slideshow</a>
-            <a href="#About">About</a>
-            <a href="#Github">Github</a>
-            <a href="#LinkedIn">LinkedIn</a>
-            <a href="/documents/Resume.pdf" target="_blank">Resume</a>
-            <a onclick="openForm()" ondblclick="closeForm()">Contact</a>
+            <img class="Jons-img" src="/images/jon.jpg" alt="Picture of Jonathan Treloggen" />
+            <h1 class="name">Jonathan Treloggen</h1>
+            <a class="nav-right" href="" download>Download Resume</a>
+            <a href="#Bio">Bio</a>
+            <a href="#Experience">Work Experience</a>
+            <a href="#Contact">Ways of Contact</a>
         </div>
-        <!-- /NAVBAR -->
-        
+        <br />
 
-        <!-- HOME -->
-        <!-- VIDEO -->
-        <div id="Home">
-            <video autoplay muted loop id="group_video">
-                <source src="video/video.mp4" type="video/mp4">
-                Your browser does not support HTML5 video.
-            </video>
-        </div>
-        <!-- /VIDEO-->
-
-
-        <!-- OVERLAY TEXT -->
-        <div class="overlay_text">
-            <h1 class="sticky">JONATHAN TRELOGGEN'S PORTFOLIO</h1>
-                <p>   
-                    <strong>
-                            <q>Alone we can do so little; together we can do so much.</q>
-                            <br>
-                            – Helen Keller
-                            <br>
-                            <br>
-                            My name is Jonathan Treloggen. Welcome to my portfolio website.
-                            <br>
-                            On it, I will tell you a little about myself, and my experience.
-                            <br>
-                            <br>
-                            Thank you for stopping by and enjoy!
-                    </strong>
-                </p>
-        </div>
-        <!-- /OVERLAY TEXT -->
-        <!-- /HOME -->
-
-        
-            <!-- SLIDESHOW -->
-            <div id="Slideshow">
-                <!-- SLIDE SHOW CONTAINER -->
-                <div id="slideshow-container">
-
-                    <!-- PHOTO CONTAINER -->
-                    <div class="mySlides fade">
-                        <img class="Slide-Show-Images" src="images/Jon.jpg" style="width: 100%;" alt="Picture of Jonathon Treloggen">
-                            <div class="text">
-                                I'm ready and available to join your project!
-                            </div>
-                    </div>
+        <!-- MY NAME AND IMAGE -->
+        <div id="Bio" class="">
             
-                    <div class="mySlides fade">
-                        <img class="Slide-Show-Images" src="images/HTML_CSS_and_JavaScript.jpg" style="width: 100%;" alt="HTML, JS and CSS picture">
-                            <div class="text">
-                                I'm a full-stack junior-level software developer,
-                                <br>trained in:
-                                <br>HTML, CSS, JavaScript,
-                            </div>
-                    </div>
+        </div>
 
-                    <div class="mySlides fade">
-                        <img class="Slide-Show-Images" src="images/C_Sharp_and_Dot_NET.jpg" style="width: 100%;" alt="C# .NET picture">
-                            <div class="text">
-                                C#, .NET Framwork, ASP.NET, MVC,
-                            </div>
-                    </div>
+        <!-- BIO -->
+        <div id="Experience" class="">
 
-                    <div class="mySlides fade">
-                        <img class="Slide-Show-Images" src="images/SQL_and_Database.jpg" style="width: 100%;" alt="HTML, JS and CSS picture">
-                            <div class="text">
-                                back end development, database and SQL.
-                            </div>
-                    </div>
+        </div>
 
-                    <div class="mySlides fade">
-                        <img class="Slide-Show-Images" src="images/contact.jpg" style="width: 100%;" alt="HTML, JS and CSS picture">
-                            <div class="text">
-                                <a onclick="openForm()" style="color: white; cursor: pointer;"><u>Contact me now!</u></a>
-                            </div>
-                    </div>
-                    <!-- /PHOTO CONTAINER -->
-                    
-                    <!-- NEXT AND PREVIOUS BUTTONS -->
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                    <!-- /NEXT AND PREVIOUS BUTTONS -->
-            
-                </div>
-                <!-- /SLIDE SHOW CONTAINER -->
-                
-                <!-- PIC DOTS -->
-                <div style="text-align: center;">
-                    <span class="dot" onclick="currentSlide(1)"></span>
-                    <span class="dot" onclick="currentSlide(2)"></span>
-                    <span class="dot" onclick="currentSlide(3)"></span>
-                    <span class="dot" onclick="currentSlide(4)"></span>
-                    <span class="dot" onclick="currentSlide(5)"></span>
-                </div>
-                <!-- /PIC DOTS -->
-            </div>
-            <!-- /SLIDESHOW -->
+        <!-- WAYS OF CONTACT -->
+        <div id="Contact" class="">
 
-
-        <!-- ABOUT -->
-        <div id="About" class="row">
-            
-            <!-- LEFT COLUMN_1 -->
-            <div class="column_1">
-                <img src="images/laptop.jpg">
-            </div>
-            <!-- /LEFT COLUMN_1 -->
-
-            <!-- RIGHT COLUMN_2 -->
-            <div class="column_2" id="scrollbar">
-                
-                <h2>ABOUT</h2>
-                    <p>
-                        I've always wanted to dive into coding, to finding out how websites, apps and video games worked. 
-                        My recent schooling has made my interest in coding grow into a passion. Being able to fix bugs or 
-                        even push my vision of a project through in code, is a feeling I would love to chase into a career. 
-                        <br> 
-                        <br>
-                        Not even a year ago I got married. Now It's finally time to 
-                        start my future I've always wanted. I'm looking foward to many coding projects, as 
-                        well as many video games to play, with the down time I'll have with my wife.
-                        <br>
-                        <br>
-                        I've graduated and earned my certificate from <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a> 
-                        where I took the C# and .NET Framework course. I've learned the Fundamentals for HTML, CSS, JavaScript, 
-                        C#, .NET Framework, ASP.NET, MVC, database and SQL/MS SQL Server, Source control (Git & GitHub) and Visual Studio.
-                        <br>
-                        <br>
-                        I'm a full stack, junior developer, who is exited to get out there! View my <a href="/documents/Resume.pdf" target="_blank"><u>Resume</u></a> 
-                        here or if you would like to <a onclick="openForm()"><u>Contact</u></a> me, click the Contact button and fill out the information required.
-                        <br>
-                        <br>
-                        
-                    </p>
-            </div>
-            <!-- /RIGHT COLUMN_2 -->
+        </div>
         
-        </div>
-        <!-- /ABOUT -->
-
-
-        <!-- GITHUB -->
-        <div id="Github" class="row">
-
-            <!-- LEFT COLUMN_3 -->
-            <div class="column_3">
-                <br>
-                <h2>GITHUB</h2>
-                
-                <p>
-                    You can view my Live Project summary for my two week internship at Prosper IT Consulting here:
-                    <br>
-                    <br>
-                    <a href="https://github.com/Jonathan-Treloggen/Prosper-IT-Consulting-Internship" target="_blank">Jonathan Treloggen's Live Project</a>
-                </p>
-            </div>
-            <!-- /LEFT COLUMN_3 -->
-
-            <!-- RIGHT COLUMN_4 -->
-            <div class="column_4">
-                <a href="https://github.com/Jonathan-Treloggen" target="_blank">
-                    <img src="./images/github-logo.jpg" alt="GitHub logo">
-                </a>
-            </div>
-            <!-- /RIGHT COLUMN_4 -->
-
-        </div>
-        <!-- /GITHUB -->
-
-
-        <!-- LINKEDIN -->
-        <div id="LinkedIn" class="row">
-            
-            <!-- LEFT COLUMN 5 -->
-            <div class="column_5">
-                <img src="images/linkedin.jpg">
-            </div>
-            <!-- /LEFT COLUMN_5 -->
-
-            <!-- RIGHT COLUMN_6 -->
-            <div class="column_6" id="scrollbar">
-                
-                <h2>LINKEDIN</h2>
-                    <p>
-                        Come and connect with me on my
-                        <br>
-                        <br>
-                        <a href="https://www.linkedin.com/in/jonathan-treloggen/" target="_blank">LinkedIn page</a>.
-                    </p>
-            </div>
-            <!-- /RIGHT COLUMN_6 -->
-        
-        </div>
-        <!-- /LINKEDIN -->
-
-        <!-- CONTACT -->
-        <div id="Contact">
-            <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
-                <div class="form-popup" id="myForm">
-                    <form action="https://formspree.io/f/jonathan.treloggen@gmail.com" method="POST" class="form-container">
-                    <h1>Contact</h1>
-                        <label for="name"><b>Name</b></label>
-                            <input type="text" placeholder="Type your name here" name="name" required>
-                        <label for="email"><b>Email</b></label>
-                            <input type="text" placeholder="Type your email address here" name="email" required>
-                        <label for="phone"><b>Phone</b></label>
-                            <input type="text" placeholder="Enter your phone number here" name="phone">
-                        <label for="message"><b>Message</b></label>
-                            <input type="text" placeholder="Type your message here" name="message">
-
-                         <button type="submit" class="btn">SUBMIT</button>
-                        <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
-                    </form>
-                </div>
-        </div>
-        <!-- /CONTACT -->
-
-
-        <!-- FOOTER -->
-        <footer>
-            <p class="footer_text">
-                &copy; Prosper Consultiong Inc., <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>
-            </p>
-        </footer>
-        <!-- /FOOTER -->
-
-        
-        <script src="JS/Jons_Portfolio.js"></script>
+        <script type="text/javascript" src="/JS/index.js"></script>
     </body>
 </html>
