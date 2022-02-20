@@ -1,16 +1,6 @@
 body {
-    background-color: rgb(97, 97, 97);
+    background-color: rgb(190, 190, 190);
     margin: 0;
-}
-
-h1 {
-    text-align: center;
-}
-
-img {
-    width: 450px;
-    height: 600px;
-    left: 45%;
 }
 
 .navbar {
@@ -19,26 +9,34 @@ img {
     width: 20%;
     height: 100%;
     overflow: hidden;
-    background-color: #F3E600;
+    background-color: #6e6e6e;
+    border-right: .1vh solid #e01f95;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 2vh;
-    border-bottom: .1vh solid black;
-    outline: .1vh solid #04DAF6;
+    text-align: center;
+    padding: 2%;
     z-index: 1;
 }
 
 .navbar a {
     display: block;
-    float: left;
-    text-align: center;
     text-decoration: none;
     position: relative;
     color: black;
     transition: 0.5s;
-    padding: 1vw;
+    padding: 1.5vw;
 }
 
 .navbar a:hover {
-    background-color: black;
     color: #F3E600;
+}
+
+.jon-img {
+    width: auto;
+    height: auto;
+}
+
+.name {
+    padding: 1.5vw;
+    margin: 0;
 }
