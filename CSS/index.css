@@ -11,16 +11,17 @@ body {
     overflow: hidden;
     background-color: #6e6e6e;
     border-right: .1vh solid #e01f95;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 2vh;
+    font-family: system-ui;
+    font-size: 2vw;
     text-align: center;
-    padding: 2%;
+    padding: 2vw;
     z-index: 1;
 }
 
 .navbar a {
     display: block;
     text-decoration: none;
+    font-size: 1.3vw;
     position: relative;
     color: black;
     transition: 0.5s;
@@ -32,11 +33,32 @@ body {
 }
 
 .jon-img {
-    width: auto;
-    height: auto;
+    height: 16vw;
+    border-radius: .3vw;
+    transition: .5s ease;
+}
+
+.jon-img:hover {
+    box-shadow: .5vw .5vw 0vw rgba(0, 0, 0, 0.1);
+    transition: .5s ease;
 }
 
 .name {
+    font-size: 3.2vw;
+    letter-spacing: .3vw;
+    font-family: fantasy;
+    color: white;
+    text-shadow: 0vw 0vw .6vw black,
+                 .325vw .325vw 0vw #f343af, 
+                 .525vw .525vw 0vw #11e9f8;
     padding: 1.5vw;
     margin: 0;
+    transition: .5s ease;
+}
+
+.name:hover {
+    text-shadow: 0vw 0vw .6vw black,
+                 0vw 0vw 0vw #f343af, 
+                 0vw 0vw 0vw #11e9f8;
+    transition: .5s ease;
 }
