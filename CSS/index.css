@@ -8,8 +8,15 @@ body {
 }
   
 .column {
-    padding-top: 3vw;
     width: 50%;
+    padding-top: 3vw;
+}
+
+.right-column {
+    position: sticky;
+    width: 50%;
+    padding-top: 3vw;
+    float: right;
 }
 
 .right {
@@ -48,6 +55,11 @@ body {
 .nav-left {
     float: left;
     padding-left: 4vw !important;
+}
+
+.contact-img {
+    width: 1.6vw;
+    filter: grayscale(100%);
 }
 
 .jon-img {
